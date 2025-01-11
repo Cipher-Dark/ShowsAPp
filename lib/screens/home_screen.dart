@@ -83,12 +83,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     CarouselSlider.builder(
                       options: CarouselOptions(
-                        height: 300, // Keep the height for a prominent display
-                        aspectRatio: 16 / 9, // Aspect ratio for better layout control
+                        height: 300,
+                        aspectRatio: 16 / 9,
                         autoPlay: true,
                         autoPlayInterval: const Duration(seconds: 5),
                         enlargeCenterPage: true,
-                        viewportFraction: 0.9, // Increased to make the images wider
+                        viewportFraction: 0.9,
                         enlargeStrategy: CenterPageEnlargeStrategy.height,
                       ),
                       itemCount: trendingShows.length,

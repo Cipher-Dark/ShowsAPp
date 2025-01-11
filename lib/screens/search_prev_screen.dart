@@ -63,7 +63,7 @@ class _SearchPrevScreenState extends State<SearchPrevScreen> {
                         height: MediaQuery.of(context).size.height * 0.45,
                         width: double.infinity,
                         decoration: BoxDecoration(
-                          image: DecorationImage(image: NetworkImage(show.imageUrl), fit: BoxFit.fill),
+                          image: DecorationImage(image: NetworkImage(show.imageUrl), fit: BoxFit.fitHeight),
                         ),
                       ),
                       Positioned(
